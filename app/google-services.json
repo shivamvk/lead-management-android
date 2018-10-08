@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092666774677",
+    "firebase_url": "https://lead-management-app.firebaseio.com",
+    "project_id": "lead-management-app",
+    "storage_bucket": "lead-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092666774677:android:9dd99eb89b0017e8",
+        "android_client_info": {
+          "package_name": "com.community.jboss.leadmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092666774677-hqhqfbmnjt95gn0m5j3ll6t9u2lqo4ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.community.jboss.leadmanagement",
+            "certificate_hash": "fe3c1c5fee88910f08cd49e7f8190f5573bbb0da"
+          }
+        },
+        {
+          "client_id": "1092666774677-fuujbbddrlkeah029pub6adasrpqhte4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUHX8xcm0LY7YUdORBny_ByXdFuTLhj48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092666774677-fuujbbddrlkeah029pub6adasrpqhte4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
