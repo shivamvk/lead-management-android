@@ -113,15 +113,15 @@ public class MainActivity extends BaseActivity
 
         if(!isFirebaseAlreadyIntialized) {
             FirebaseApp.initializeApp(this, new FirebaseOptions.Builder()
-                    .setApiKey("AIzaSyCUHX8xcm0LY7YUdORBny_ByXdFuTLhj48")
-                    .setApplicationId("1:1092666774677:android:9dd99eb89b0017e8")
-                    .setDatabaseUrl("https://lead-management-app.firebaseio.com/")
+                    .setApiKey(getResources().getString(R.string.firebase_api_key))
+                    .setApplicationId(getResources().getString(R.string.firebase_application_id))
+                    .setDatabaseUrl(getResources().getString(R.string.firebase_database_url))
                     //.setGcmSenderId("YOUR_SENDER_ID")
-                    .setStorageBucket("lead-management-app.appspot.com").build());
+                    .setStorageBucket(getResources().getString(R.string.firebase_storage_bucket_url)).build());
         }
         
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("1092666774677-fuujbbddrlkeah029pub6adasrpqhte4.apps.googleusercontent.com")
+                .requestIdToken(getResources().getString(R.string.google_sign_in_request_id_token))
                 .requestEmail()
                 .build();
 
@@ -280,7 +280,7 @@ public class MainActivity extends BaseActivity
                 firebaseAuthWithGoogle(account);
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
-                Log.w(TAG, "Google sign in failed" + e.getStatusCode(), e);
+                Log.w(TAG, "Google sign in failed " + e.getStatusCode(), e);
                 // [START_EXCLUDE]
                 updateUI(null);
                 // [END_EXCLUDE]

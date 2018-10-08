@@ -74,4 +74,11 @@
 
     <string name="phone_title_text">Phone Number</string>
 
+    <string name="firebase_api_key">AIzaSyCUHX8xcm0LY7YUdORBny_ByXdFuTLhj48</string>
+    <string name="firebase_application_id">1:1092666774677:android:9dd99eb89b0017e8</string>
+    <string name="firebase_database_url">https://lead-management-app.firebaseio.com/</string>
+    <string name="firebase_storage_bucket_url">lead-management-app.appspot.com</string>
+
+    <string name="google_sign_in_request_id_token">1092666774677-fuujbbddrlkeah029pub6adasrpqhte4.apps.googleusercontent.com</string>
+
 </resources>
